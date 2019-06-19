@@ -1,0 +1,110 @@
+.my_header{  width:100%; margin-bottom: 0px; border: 0px; }
+*{padding: 0 ; margin:0;}
+/*手写媒体查询 控制iframe*/
+@media screen and (min-width: 992px){
+    .my_header{  height:7rem;  }
+}/*
+@media screen and (max-width: 991px){
+.my_header{  height:11rem;  }
+.my_footer{  height:30rem; }
+}
+
+
+/*代轮播图区域  */
+.my_img1{
+  padding: 0;
+}
+.my_img1>a>img{
+  width: 761px;
+}
+.body,.row,.col{ margin: 0; padding: 0px; }
+.my_figure{margin-top:-6px;}
+div>div>a>img{height:100%;}
+.my_left{
+   background-color: rgb(110, 110, 107)
+ }
+ 
+ /* 主体部分 */
+ /* 左右空白区域样式 */
+ .my_blank{
+   background-color: #e5e5e5;
+ }
+ 
+ /* 中部主题 */
+ .my_round>ul>li{
+   width:13px;
+   height:13px;
+   border:3px solid rgb(155, 2, 2);
+   border-radius: 50%;
+   list-style: none;
+   margin-top: 1.2rem;
+   margin-right: 1rem;
+ }
+ .content,.content>ul{
+   display: flex;
+   margin: 0;   
+  padding-right: 0;
+ }
+ /* 面包屑导航 */
+ .breadcrumb{ 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  margin-bottom: 0;
+}
+  .breadcrumb-item + .breadcrumb-item::before {
+      display: inline-block;
+      padding-right: 1rem;
+      padding-left:1rem;
+      color:#e5e5e5;
+      content: "|";
+      margin-bottom: 0;
+    }
+    .content>h3{margin-top:7px; }
+    .my_p1>a{margin-left:5rem; }
+    .my_p1{padding-top: 0.8rem;}
+    /* 分割线 */
+    .my_hr{
+      background-color: rgb(155, 2, 2); 
+      border:2px solid rgb(155, 2, 2);
+      margin-top:0; 
+      margin-left: 1rem;
+      margin-right: 1rem;
+      border-radius: 2px;
+    }
+    .content{margin-left: 2rem;margin-top: 1rem;}
+    /* 公告牌 */
+    .col-2{padding: 0;margin: 0;}
+   .board{
+     margin: 0;
+     padding: 1rem;
+     background-image:linear-gradient(to bottom,#ffffff,#c9c9c9);
+   }
+   /* 登录按钮 */
+   .board>button{
+     width: 100px;
+     height: 30px;;
+     background-color: rgb(209, 2, 2);
+     border-radius: 5px;
+     border:0;
+     color:#ffffff;
+     margin-left: 3.2rem;
+     font-size:0.85rem; 
+   }
+.my_p_a{
+  border: 1px solid #e9d2d2;
+  font-size: 1rem;
+}
+.my_p_a>p,.my_p_a>hr{
+  margin: 1rem;
+  margin-bottom: 7px;
+}
+.my_p_a>p>a{margin-left: 70px;color: #b3b0b0;margin-bottom: 0}
+.my_p_a>hr{margin-top:0px;
+ border:1px solid #b3b0b0;
+ background-color: #b3b0b0;
+ margin-top: 0px;
+}

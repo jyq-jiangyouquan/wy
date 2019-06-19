@@ -1,0 +1,112 @@
+*{margin:0;padding: 0;}
+/* head 背景样式 */
+.head_background{
+      background-color:#242424;
+     display: flex !important; 
+     padding-left: 4rem; 
+     padding-top:1rem;
+     padding-bottom: 1rem;
+     border: 0px;
+}
+.head_background>div{
+    align-content: center;
+    color: aliceblue;
+}
+.head_background>div>h2{
+    margin-left: 3rem;
+}
+.list_style{ 
+    list-style-type:none;
+    display: flex !important; 
+    padding-top: 0.8rem;
+}
+.list_style>li>a{
+    padding:1.5rem;
+    text-decoration: none; 
+    color: #666;    
+    align-content: center;
+}
+
+
+.list_style>li>a:hover{
+   background:#000;
+   height: 100%;
+   color:#fff;
+}
+.Hot_small{
+    width: 1.7rem;
+    height:0.9rem;
+    background-color: red;
+    font-size: 0.2rem;
+    color:#666;
+    border-radius: 8px;
+    background: 2px solid #666;
+    margin-top: 0.7rem;
+    padding-left:0.3rem;
+    padding-bottom:-0.4rem;
+}
+.my_input>input{
+    height: 1.8rem;
+    border-radius: 13px;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    margin-left: 3rem;
+    padding-left: 1.8rem;
+    border: 0;
+    background-color: rgb(202, 201, 201);
+}
+.my_aa1{
+    width:6rem;
+    height:1.8rem;
+    align:center;
+    background-color:#242424;
+    border: 1px solid#fff;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    padding-left:3rem;
+    border-radius: 15px;    
+}
+.my_a:hover{
+   color:#fff; 
+}
+.my_a{  
+    text-decoration: none;
+    font-size: 0.7rem;
+    color:#666;   
+}
+/* 下拉菜单 */
+.my_provs{
+    border:0;
+   opacity:0;
+ 
+}
+
+
+.my_ul{
+    margin-top:0px;
+   background-color:  #C20C0C;
+   font-size: 0.8rem;
+   height: 35px;
+   margin:0;
+}
+
+.my_li{
+    list-style-type:none; 
+    display: flex !important;  
+    padding-top: 0.5rem;
+    margin-left: 18rem;
+}
+   
+.my_li>li a{
+    text-decoration: none;  
+    color:#fff;
+    padding-left:5rem;
+} 
+.my_li>.background_a>a{   
+    padding-left: 0px;
+    background-color:rgb(77, 3, 3);
+    padding: 4px;
+    border-radius: 12px;
+}
+
+
