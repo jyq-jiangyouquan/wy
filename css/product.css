@@ -20,8 +20,9 @@
 .body,.row,.col{ margin: 0; padding: 0px; }
 .my_figure{margin-top:-6px;}
 div>div>a>img{height:100%;}
+/* 左右空白 背景样式 */
 .my_left{
-   background-color: rgb(110, 110, 107)
+   background-color: #a88e75
  }
  
  /* 主体部分 */
@@ -76,9 +77,11 @@ div>div>a>img{height:100%;}
       border-radius: 2px;
     }
     .content{margin-left: 2rem;margin-top: 1rem;}
+
     /* 公告牌 */
-    .col-2{padding: 0;margin: 0;}
+    .col-2{padding: 0;margin: 0; box-shadow:20 2 3 2 #e5e5e5;}
    .board{
+    box-shadow:20 2 3 2 #e5e5e5;
      margin: 0;
      padding: 1rem;
      background-image:linear-gradient(to bottom,#ffffff,#c9c9c9);
@@ -108,3 +111,56 @@ div>div>a>img{height:100%;}
  background-color: #b3b0b0;
  margin-top: 0px;
 }
+/* 公告牌 公共 样式 */
+.board_1{
+  display: flex;
+  margin: 1rem;
+}
+.board_1 div{ 
+  width: 180px;
+  padding-left: 1.2rem;
+  border: 0.5px solid #e2d1d1;
+  border-left: 0.5px solid transparent;
+  font-size: 0.8rem;
+  padding-top: 10px;
+}
+.board_1 div>a>span{ 
+   color:#746e6e;
+}
+/* 申请成为网易音乐人 按钮*/
+.button_h6>button{
+  width: 220px;
+  margin-left: 1rem;
+  border-radius: 5px;
+  border:0;
+  background-color: #eeeeee;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  box-flex: 1 5  5 6 #eeeeee;
+}
+/* 热门主播 样式 */
+.my_p_a2>p,.my_p_a2>hr{
+  margin: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 7px;
+}
+.my_p_a2 hr{margin-top:0px;
+ border:1px solid #b3b0b0;
+ background-color: #b3b0b0;
+ margin-top: 0px;
+}
+/* 具体主播 标签样式 */
+.my_host_1{
+  display: flex;
+  margin: 1rem;
+}
+.my_host_1 div{ 
+  width: 180px;
+  padding-left: 0.8rem;
+  font-size: 0.8rem;
+
+}
+.my_host_1 div>a>span{ 
+   color:#746e6e;
+}
+.my_host_1>a>img{height:55px;}
