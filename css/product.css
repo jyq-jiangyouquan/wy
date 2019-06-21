@@ -67,7 +67,7 @@ div>div>a>img{height:100%;}
     .content>h3{margin-top:7px; }
     .my_p1>a{margin-left:5rem; }
     .my_p1{padding-top: 0.8rem;}
-    /* 分割线 */
+    /* 第一 分割线 */
     .my_hr{
       background-color: rgb(155, 2, 2); 
       border:2px solid rgb(155, 2, 2);
@@ -76,7 +76,9 @@ div>div>a>img{height:100%;}
       margin-right: 1rem;
       border-radius: 2px;
     }
-    .content{margin-left: 2rem;margin-top: 1rem;}
+    .my_str{border:1px solid #dbd9d9;}
+    .content{margin-left: 2rem;margin-top: 1rem;
+    }
 
     /* 公告牌 */
     .col-2{padding: 0;margin: 0; box-shadow:20 2 3 2 #e5e5e5;}
@@ -98,7 +100,6 @@ div>div>a>img{height:100%;}
      font-size:0.85rem; 
    }
 .my_p_a{
-  border: 1px solid #e9d2d2;
   font-size: 1rem;
 }
 .my_p_a>p,.my_p_a>hr{
@@ -164,3 +165,79 @@ div>div>a>img{height:100%;}
    color:#746e6e;
 }
 .my_host_1>a>img{height:55px;}
+
+/* 主体标签  标签样式 共两层*/
+.my_content>a>img{
+  height: 49%;
+}
+.my_content{
+  margin: 0px;
+}
+.my_content>a p{
+  font-size: 0.9rem;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+div>.my_content{
+  margin-bottom: -50px;
+
+}
+/*  <!--新碟 上架 分割线  --> */
+/* <!--榜单  分割线  --> */
+.my_p2{
+  margin-left: 25rem; 
+  margin-top: 15px;
+}
+/* 中部 小轮播图 代 */
+.small_figure{
+  border:1px solid #b3b0b0;
+  margin-left: 1rem;
+  background-color: #eeeeee;
+  margin-right: 1rem;
+  display: flex;
+  padding-right: 0px;
+}
+.small_figure>div{
+  height:100px;
+  margin: 2rem;
+  margin-right: 0px;
+  margin-bottom: 3rem; 
+}
+
+/* 主体内容 下部  榜单*/
+.list_a>a>img{
+  height:80px;;
+  padding-left: 15px;
+}
+/* 榜单 内部样式 */
+.my_list .col-4{
+  padding: 0;
+  border: 1px solid #b3b0b0;
+  padding-top: 15px; 
+  background-color: #f0efef;
+}
+.my_list{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.list-unstyled{
+  margin-top: 2rem;
+}
+.list-group-item{
+  height: 2rem;
+  padding: 5px; 
+  border:0;
+  background-color: #f0efef;
+
+}
+.list-group-item-dark{
+  color: #000000;
+  background-color: #e2e5e7;
+  font-size: 0.8rem;
+  
+}
+.list-group-item{
+  color: #000000;
+  font-size: 0.8rem;
+ 
+}
