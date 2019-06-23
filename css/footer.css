@@ -1,0 +1,32 @@
+/* 面包屑导航 */
+.breadcrumb{ 
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    border-radius:0; 
+    background-color: #f2f2f2;
+   padding-bottom: 5px;
+  }
+    .breadcrumb-item + .breadcrumb-item::before {
+        content: "|";
+        margin-bottom: 0;    
+      }
+/* a标签字体 样式 */
+  .breadcrumb>li a{  color: #666666; }
+ /* col-2 左右两侧样式 */
+      .background_footer{   background-color: #f2f2f2; border: 1px solid hsl(0, 15%, 82%);}
+      .background-color{ padding-left: 0px; }
+      /* col-10 样式 */
+      .background-color>p{
+          padding-left: 1rem;
+          margin-top:0px;
+          margin-bottom: 5px;
+          font-size: 0.8rem;
+      }
+      /* img 样式 */
+      .footer_img{
+       padding-top: 1rem;
+       padding-bottom: 1rem;
+      }
+    
